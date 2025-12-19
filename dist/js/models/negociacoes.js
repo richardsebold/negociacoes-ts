@@ -1,5 +1,3 @@
-// private negociacoes: Array<Negociacao> = [];
-// lista(): ReadonlyArray<Negociacao> {
 export class Negociacoes {
     constructor() {
         this.negociacoes = [];
