@@ -19,8 +19,7 @@ export class NegociacaoController {
         this.inputValor = document.querySelector('#valor') as HTMLInputElement;
         this.negociacoesView.update(this.negociacoes);
     }
-
-    @logarTempoDeExecucao()
+    @logarTempoDeExecucao(true)
     public adiciona(): void {
         const negociacao = Negociacao.criaDe(
             this.inputData.value,
